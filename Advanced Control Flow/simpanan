@@ -1,0 +1,37 @@
+function isUserValid(bool) {
+  return bool;
+}
+
+var answer = isUserValid(true) ? "ya kamu bisa akses" : "maaf tidak bisa masuk";
+
+var autoanswer = "your account is " + isUserValid(true) ? "1234" : "sorry";
+
+function kendalikan(arah) {
+  var apaYangTerjadi;
+  switch (arah) {
+    case "tidak beriman":
+      apaYangTerjadi = "masuk neraka";
+      break;
+    case "beriman":
+      apaYangTerjadi = "anda masuk surga";
+      break;
+    default:
+      apaYangTerjadi = "perbaiki semuanya sebelum terlambat";
+  }
+
+  return apaYangTerjadi;
+}
+
+function kehidupan(tujuan) {
+  var apaYangTerjadi;
+  switch (tujuan) {
+    case "tidak belajar":
+      apaYangTerjadi = "AKAN JADI BODOH";
+      break;
+    case "belajar dengan giat":
+      apaYangTerjadi = "akan sukses";
+    default:
+      "tidak tahu lagi";
+  }
+  return apaYangTerjadi;
+}
